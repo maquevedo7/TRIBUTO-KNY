@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+
+header {
+
+    font-family: 'Special Elite', cursive;
+    font-size: 22px;
+    background:rgb(20, 13, 13);
+
+}
+
+header nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav .menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+
+}
+
+header nav .menu .menu-logo img{
+
+    width: 120px;
+
+}
+
+header nav .menu .menu-pages {
+
+    display: flex;
+
+}
+
+.bottom {
+
+    padding: 16px 16px;
+    color: cornsilk;
+    background-color: #d30000c5;
+    border-radius: 2em;
+    text-decoration: none;
+
+}
+
+.bottom:hover {
+
+    background-color: #d30000;
+
+}
+
+
+main {
+
+    background-color: rgb(117, 9, 9);
+    font-family: 'Special Elite', cursive;
+
+    }
+
+.content {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    height: 80%;
+    width: 80%;
+
+}
+
+.content-text-p {
+
+    font-size: 20px;
+    padding: 15px;
+    color: cornsilk;
+    width: 50%;
+    height: 60%;
+    background-color: #e5e5e536;    
+    padding: 20px;
+
+}
+
+.content-img-prin {
+
+    padding: 70px;
+
+}
+
+.content-img-prin-im{
+
+    width: 400%;
+
+}
+
+.c1 {
+    
+    width: 150px;
+    height:3em;
+    
+    background-color: #cfa0a0c0;
+    
+    padding-top: 1.5em;
+    border-radius: 2em;
+}
+
+
+.c1 h1 {
+
+    color: cornsilk;
+    text-align: center;
+
+}
+
+.content-text h1 {
+
+    margin: auto;
+
+}
+
+footer {
+
+
+    background:rgb(20, 13, 13);
+    padding: 16px 16px;
+
+
+}
+
+.footer p{
+    padding: 20px;
+    color: cornsilk;
+}
+
