@@ -2,6 +2,23 @@
     margin: 0;
 }
 
+body {
+    background: #6f0000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to bottom,
+        #0a000a,
+        #6f0000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to bottom,
+        #000000,
+        #6f0000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: blanchedalmond;
+    font-family: "Special Elite", cursive;
+}
+
 header {
     font-family: "Special Elite", cursive;
     font-size: 22px;
@@ -38,6 +55,11 @@ header {
     align-items: center;
 }
 
+.menu-pages li {
+    text-decoration: none;
+    list-style: none;
+}
+
 .btn {
     display: flex;
     justify-content: space-between;
@@ -51,11 +73,6 @@ header {
 
 .btn:hover {
     background-color: #d30000;
-}
-body {
-    background-color: rgb(121, 11, 11);
-    color: blanchedalmond;
-    font-family: "Special Elite", cursive;
 }
 
 main h1 {

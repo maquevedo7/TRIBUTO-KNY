@@ -38,6 +38,11 @@ header {
     align-items: center;
 }
 
+.menu-pages li {
+    text-decoration: none;
+    list-style: none;
+}
+
 .btn {
     display: flex;
     justify-content: space-between;
