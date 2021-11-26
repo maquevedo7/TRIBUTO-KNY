@@ -69,9 +69,33 @@ body {
     background-color: #d30000;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.container {
+    background-color: rgba(255, 248, 220, 0.507);
+    width: 250px;
+    height: 200px;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .date {
     background-color: black;
-    size: 30px;
+    font-size: 20px;
+    width: auto;
+    padding: 0.6em;
+    position: absolute;
+    margin: 0 0 15% 15%;
 }
 
 .info {
@@ -84,9 +108,11 @@ body {
     size: 70px;
 }
 
-footer {
-    font-size: 15px;
+.footer {
     background: rgb(0, 0, 0);
-    padding: 1em;
-    color: rgb(255, 254, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: cornsilk;
+    padding: 1em 2em;
 }

@@ -109,9 +109,11 @@ body {
     }
 }
 
-footer {
-    font-size: 15px;
-    background: rgb(20, 13, 13);
-    padding: 16px 16px;
-    color: rgb(255, 254, 248);
+.footer {
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: cornsilk;
+    padding: 1em 2em;
 }
