@@ -1,85 +1,117 @@
-*{
+* {
     margin: 0;
-  }
-  
-  header {
-  
-    font-family: 'Special Elite', cursive;
+}
+
+header {
+    font-family: "Special Elite", cursive;
     font-size: 22px;
-    background:rgb(20, 13, 13);
-  
-  }
-  
-  header nav {
-  
+    background: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  
-  }
-  
-  header nav .menu-logo img{
-  
-    width: 120px;
-  
-  }
-
-  main h1 {
-
-    color: rgb(255, 254, 248);
-
-
-  }
-
-  body {
-
-    background-color: rgb(121, 11, 11);
-    color: blanchedalmond  ;
-    font-family: 'Special Elite', cursive;
-
 }
-  
-  /* CAROUSEL */
-  
-  .slider {
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.menu-logo {
+    width: 100px;
+    padding: 0.3em;
+}
+
+.menu-logo img {
+    width: 100px;
+}
+
+.menu-pages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    margin: 0.3em;
+    color: cornsilk;
+    background-color: #960101;
+    border-radius: 2em;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #d30000;
+}
+
+main h1 {
+    color: rgb(255, 254, 248);
+}
+
+body {
+    background-color: rgb(121, 11, 11);
+    color: blanchedalmond;
+    font-family: "Special Elite", cursive;
+}
+
+/* CAROUSEL */
+
+.slider {
     width: 70%;
     margin: auto;
     overflow: hidden;
-  } 
-  
-  .slider ul {
+}
+
+.slider ul {
     display: flex;
     padding: 0%;
     width: 100%;
-  
+
     animation: cambio 20s infinite;
-  }
-  
-  .slider li {
+}
+
+.slider li {
     width: 100%;
     list-style: none;
-  }
-  
-  .slider img {
+}
+
+.slider img {
     width: 100%;
-  }
-  
-  @keyframes cambio {
-    0% {margin-left: 0;}
-    30% {margin-left: -20%;}
-    50% {margin-left: -30%;}
-    70% {margin-left: -40%;}
-    85% {margin-left: -60%;}
-    90% {margin-left: -70%;}
-  }
-  
-  
-  footer {
-  
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: -20%;
+    }
+    50% {
+        margin-left: -30%;
+    }
+    70% {
+        margin-left: -40%;
+    }
+    85% {
+        margin-left: -60%;
+    }
+    90% {
+        margin-left: -70%;
+    }
+}
+
+footer {
     font-size: 15px;
-    background:rgb(20, 13, 13);
+    background: rgb(20, 13, 13);
     padding: 16px 16px;
     color: rgb(255, 254, 248);
-  
-  }
+}

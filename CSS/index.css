@@ -38,22 +38,6 @@ header {
     align-items: center;
 }
 
-body {
-    background: #6f0000; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to bottom,
-        #0a000a,
-        #6f0000
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to bottom,
-        #000000,
-        #6f0000
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: blanchedalmond;
-    font-family: "Special Elite", cursive;
-}
-
 .btn {
     display: flex;
     justify-content: space-between;
@@ -69,24 +53,73 @@ body {
     background-color: #d30000;
 }
 
-.date {
-    background-color: black;
-    size: 30px;
+main {
+    background: #6f0000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to bottom,
+        #0a000a,
+        #6f0000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to bottom,
+        #000000,
+        #6f0000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: "Special Elite", cursive;
 }
 
-.info {
-    background-color: rgb(255, 7, 7);
-    size: 50px;
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
 }
 
-.botton {
-    background-color: rgb(255, 254, 248);
-    size: 70px;
+.content-img-prin {
+    display: flex;
 }
 
-footer {
-    font-size: 15px;
-    background: rgb(0, 0, 0);
+.content-img-prin img {
+    width: 250px;
+}
+
+.content-txt {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 20px;
+    padding: 20px;
+    margin: 2em;
+    color: cornsilk;
+}
+
+.title {
+    width: 200px;
+    height: 2em;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    padding: 0.5em;
+    border-radius: 20px;
+    background-color: #cfa0a0c0;
+}
+
+.principalTxt {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
     padding: 1em;
-    color: rgb(255, 254, 248);
+    margin: 2em 1em;
+    background-color: #e5e5e536;
+    border-radius: 20px;
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: cornsilk;
+    padding: 1em;
 }

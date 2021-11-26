@@ -1,73 +1,88 @@
-*{
+* {
     margin: 0;
 }
 
 header {
-
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     font-size: 22px;
-    background:rgb(20, 13, 13);
-
-}
-
-header nav {
-
+    background: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
-header nav .menu-logo img{
-
-    width: 120px;
-
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
 }
 
+.menu-logo {
+    width: 100px;
+    padding: 0.3em;
+}
+
+.menu-logo img {
+    width: 100px;
+}
+
+.menu-pages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    margin: 0.3em;
+    color: cornsilk;
+    background-color: #960101;
+    border-radius: 2em;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #d30000;
+}
 body {
-
-  background-color: rgb(121, 11, 11);
-  color: blanchedalmond  ;
-  font-family: 'Special Elite', cursive;
-
+    background-color: rgb(121, 11, 11);
+    color: blanchedalmond;
+    font-family: "Special Elite", cursive;
 }
 
 main h1 {
-
-  text-align: center;
-  padding: 15px;
-  color: darksalmon;
-
+    text-align: center;
+    padding: 15px;
+    color: darksalmon;
 }
 
 main h4 {
-
-  text-align:center;
-  padding: 15px;
-
+    text-align: center;
+    padding: 15px;
 }
 
 main p {
-
-  text-align:left;
-  padding: 15px;
-
+    text-align: left;
+    padding: 15px;
 }
 
 footer {
-
     font-size: 15px;
-    background:rgb(20, 13, 13);
+    background: rgb(20, 13, 13);
     padding: 16px 16px;
     color: rgb(255, 254, 248);
-
 }
 
 .port {
-
-  width: 50%;
-
+    width: 50%;
 }
 
 /* CAROUSEL */
@@ -76,54 +91,94 @@ footer {
     width: 250%;
     margin: auto;
     overflow: hidden;
-  } 
-  
-  .slider-game ul {
+}
+
+.slider-game ul {
     display: flex;
     padding: 0%;
     width: 100%;
-  
+
     animation: cambio 60s infinite;
-  }
-  
-  .slider-game li {
+}
+
+.slider-game li {
     width: 100%;
     list-style: none;
-  }
-  
-  .slider-game img {
+}
+
+.slider-game img {
     width: 100%;
-  }
-  
-  @keyframes cambio {
-    0% {margin-left: 0;}
-    5% {margin-left: 0;}
-    10% {margin-left: -0;}
-    15% {margin-left: -10%;}
-    20% {margin-left: -10%;}
-    25% {margin-left: -10%;}
-    30% {margin-left: -20%;}
-    35% {margin-left: -20%;}
-    40% {margin-left: -20%;}
-    45% {margin-left: -30%;}
-    50% {margin-left: -30%;}
-    55% {margin-left: -30%;}
-    60% {margin-left: -40%;}
-    65% {margin-left: -40%;}
-    70% {margin-left: -40%;}
-    75% {margin-left: -50%;}
-    80% {margin-left: -50%;}
-    85% {margin-left: -60%;}
-    90% {margin-left: -60%;}
-    95% {margin-left: -70%;}
-    100% {margin-left: -70%;}
-  }
-  
-  footer {
-  
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    5% {
+        margin-left: 0;
+    }
+    10% {
+        margin-left: -0;
+    }
+    15% {
+        margin-left: -10%;
+    }
+    20% {
+        margin-left: -10%;
+    }
+    25% {
+        margin-left: -10%;
+    }
+    30% {
+        margin-left: -20%;
+    }
+    35% {
+        margin-left: -20%;
+    }
+    40% {
+        margin-left: -20%;
+    }
+    45% {
+        margin-left: -30%;
+    }
+    50% {
+        margin-left: -30%;
+    }
+    55% {
+        margin-left: -30%;
+    }
+    60% {
+        margin-left: -40%;
+    }
+    65% {
+        margin-left: -40%;
+    }
+    70% {
+        margin-left: -40%;
+    }
+    75% {
+        margin-left: -50%;
+    }
+    80% {
+        margin-left: -50%;
+    }
+    85% {
+        margin-left: -60%;
+    }
+    90% {
+        margin-left: -60%;
+    }
+    95% {
+        margin-left: -70%;
+    }
+    100% {
+        margin-left: -70%;
+    }
+}
+
+footer {
     font-size: 15px;
-    background:rgb(20, 13, 13);
+    background: rgb(20, 13, 13);
     padding: 16px 16px;
     color: rgb(255, 254, 248);
-  
-  }
+}
